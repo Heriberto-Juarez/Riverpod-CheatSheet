@@ -29,5 +29,7 @@ ref.watch(riverpod).name
 ref.read(riverpod).changeName(newName: newValue)`
 
 ## PS
+
 Watch = Listen to changes
+
 Read = Don't listen to changes (Edit the value)
