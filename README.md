@@ -4,20 +4,19 @@
 ProviderScope
 
 Easy level
-`
-StateProvider
+
+`StateProvider
 
 ConsumerWidget
 
 ref.watch(riverpod)
 
-ref.read(riverpod.notifier).state
-`
+ref.read(riverpod.notifier).state`
 
 ## Hard level (With a model)
 
-`
-ChangeNotifierProvider
+
+`ChangeNotifierProvider
 
 ChangeNotifier
 
@@ -27,8 +26,7 @@ ConsumerWidget
 
 ref.watch(riverpod).name
 
-ref.read(riverpod).changeName(newName: newValue)
-`
+ref.read(riverpod).changeName(newName: newValue)`
 
 ## PS
 Watch = Listen to changes
