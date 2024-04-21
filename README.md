@@ -2,13 +2,13 @@
 
 ## Riverpod set up **
 ProviderScope
------
-** Easy level **
+
+Easy level
 StateProvider
 ConsumerWidget
 ref.watch(riverpod)
 ref.read(riverpod.notifier).state
------
+
 
 ## Hard level (With a model) **
 ChangeNotifierProvider
